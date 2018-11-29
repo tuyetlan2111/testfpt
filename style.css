@@ -1,0 +1,97 @@
+.row{
+	padding: 0px;
+}
+.header .menu ul{
+    padding: 12px 0px;
+}
+.header .menu ul li{
+	list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.header .menu ul:nth-child(2){
+	text-align: right;
+}
+.slide_header{
+	color: #ffffff;
+	background: url(./img/bg.jpg);
+	height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slide_header h1{
+	position: absolute;
+    top: 30%;
+    left: 3%;
+}
+.slide_header p{
+	position: absolute;
+    top: 47%;
+    left: 3%;
+    font-size: 16px;
+}
+
+/**************************title**********/
+.body{
+	background: #CCCCCC;
+	padding: 30px 0px;
+}
+.title{
+	padding-bottom: 25px;
+	padding-left: 30px;
+}
+.body .title h3{
+    font-weight: bold;
+}
+.body .title p{
+	color: #736f6f;
+}
+.country .item{
+	position: relative;
+	padding: 0px;
+}
+.country .item p{
+	color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.country .item img{
+	height: 300px;
+    width: 100%;
+}
+.country .item img.last{
+	height: 634px;
+    width: 100%;
+}
+.country .item .item_small{
+	margin-bottom: 33px;
+}
+/**************************title**********/
+.footer{
+	background: #DDDDDD;
+    padding: 20px 0px 40px;
+    border-top: 2px solid #b3a8a8;
+}
+.footer .item h3{
+	font-weight: bold;
+    font-size: 28px;
+}
+.footer .item p{
+	    font-size: 15px;
+    color: #867c7c
+}
+.footer a{
+	text-decoration: underline;
+}
